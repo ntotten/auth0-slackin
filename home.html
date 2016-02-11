@@ -1,7 +1,6 @@
 
 <!DOCTYPE html><html class=''>
 <head>
-
 <link rel='stylesheet prefetch' href='https://cdn.auth0.com/styleguide/latest/index.css'>
 <style class="cp-pen-styles">body {
   text-align: center;
@@ -23,16 +22,26 @@ h1 {
   margin: 0.8em;
 }
 .box {
-  margin: 40px -100px;
   border: 2px solid rgba(0,0,0,0.1);
   border-radius: 5px;
   padding: 40px 20px;
   text-align: left;
 }
+@media (min-width: 768px) {
+  .box {
+    margin: 40px -100px;
+  }
+}
 .box span {
   display: inline-block;
   padding-top: 10px;
   color: rgba(0,0,0,0.68);
+  margin-bottom: 20px;
+}
+@media (min-width: 768px) {
+  .box span {
+    margin-bottom: 0;
+  }
 }
 .pulse {
   -webkit-animation-iteration-count: infinite;
@@ -45,21 +54,20 @@ h1 {
 }
 </style></head><body>
 
-<div class="content"><img src="https://cldup.com/gu97Xa1CkL.svg" class="animated pulse"/>
-  <h1>Be Back Soon!</h1>
-  <p> <strong>Auth0 Chat is temporarily closed. </strong>The volume of activity on chat has reached a level that makes it difficult to provide the quality support experience we are used to provide. </p>
+<div class="content"><img src="https://cdn.auth0.com/img/heart.svg" class="animated pulse"/>
+  <h1>302 Redirect</h1>
+  <p> <strong>Auth0 Chat is temporarily closed. </strong>The volume of activity on chat has reached a level that makes it difficult to provide the quality support experience we are used to providing. </p>
   <div class="box row">
-    <div class="col col-xs-4">
+    <div class="col col-lg-4">
       <div class="sc">Support Forum</div><span><a href="http://ask.auth0.com">ask.auth0.com </a></span>
     </div>
-    <div class="col col-xs-4">
+    <div class="col col-lg-4">
+      <div class="sc">Auth0 Dashboard</div><span>Click on "Get Support"</span>
+    </div>
+    <div class="col col-lg-4">
       <div class="sc">Email</div><span><a href="mailto:support@auth0.com">support@auth0.com </a></span>
     </div>
-    <div class="col col-xs-4">
-      <div class="sc">Auth0 Dashboard</div><span>Click on "Get Support" in lower left corner.</span>
-    </div>
   </div>
-  <p>We are actually hiring <a href="">Deveoper Success Engineers </a>to have awesome <strong>dev to dev </strong>chat again.</p>
+  <p>We are actually hiring <strong>Deveoper Success Engineers. </strong>Interested? <a href="https://auth0.com/jobs/developer-success-engineer">Apply</a></p>
 </div>
-
 </body></html>
