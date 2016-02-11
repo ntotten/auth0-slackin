@@ -1,0 +1,22 @@
+{
+  "name": "auth0-slackin",
+  "scripts": {
+  },
+  "env": {
+    "SLACK_API_TOKEN": {
+      "required": true
+    },
+    "SLACK_SUBDOMAIN": {
+      "required": true
+    },
+    "SLACK_TEAM": {
+      "required": true
+    }
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+
+  ]
+}
